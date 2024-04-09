@@ -28,7 +28,7 @@ a {
     display: flex;
     list-style: none;
     padding-left: 0;
-    font-size: 24px;
+    font-size: 10px;
 }
 
 .navbar__menu li {
@@ -61,5 +61,5 @@ a {
 
 .image {
     max-width: 100%; /* 이미지가 너무 커서 화면을 벗어나는 것을 방지 */
-    height: auto; /* 이미지의 세로 비율을 유지하면서 가로 너비에 맞게 조절 */
+    height: 200px; /* 이미지의 세로 비율을 유지하면서 가로 너비에 맞게 조절 */
 }
