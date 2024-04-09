@@ -12,12 +12,13 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #263343;
-    padding: 8px 12px;
+    padding: 150px 222px;
 }
 
 .navbar__logo {
     font-size: 24px;
     color: white;
+
 }
 
 .navbar__logo i {
@@ -29,6 +30,7 @@ a {
     display: flex;
     list-style: none;
     padding-left: 0;
+    font-size: 24px;
 }
 
 .navbar__menu li {
@@ -36,10 +38,10 @@ a {
 }
 
 .navbar__menu li :hover {
-    background-color: yellow;
     color: black; /* 텍스트 색상을 검정색으로 변경 */
     border-radius: 5px;
     padding: 5px;
+    background: linear-gradient(15deg, yellow, orange); /* 그라디언트 효과 추가 */
 }
 
 .navbar__icons {
@@ -51,4 +53,5 @@ a {
 .navbar__icons li {
     padding: 8px 12px;
 }
+
 
