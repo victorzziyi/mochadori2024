@@ -12,7 +12,7 @@ a {
     flex-direction: column; /* 메뉴 아래에 이미지를 배치하기 위해 컬럼 방향으로 설정 */
     align-items: center; /* 수직 방향으로 가운데 정렬 */
     background-color: #263343;
-    padding: 50px 0; /* 상단과 하단에 패딩 추가 */
+    padding: 150px 0; /* 상단과 하단에 패딩 추가 */
 }
 
 .navbar__logo {
