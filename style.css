@@ -1,5 +1,6 @@
 .body {
     margin: 0;
+    
 }
 
 a {
@@ -62,4 +63,10 @@ a {
 .image {
     max-width: 100%; /* 이미지가 너무 커서 화면을 벗어나는 것을 방지 */
     height: px; /* 이미지의 세로 비율을 유지하면서 가로 너비에 맞게 조절 */
+}
+
+.use_font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: rgb(233, 151, 57);
 }
