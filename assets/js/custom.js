@@ -3,22 +3,23 @@ $(document).ready(function(){
     
         /*==================================
 * Author        : "ThemeSine"
-* Template Name : CarVilla HTML Template
+* Template Name : Khanas HTML Template
 * Version       : 1.0
 ==================================== */
 
 
 
-
 /*=========== TABLE OF CONTENTS ===========
-1. Scroll To Top
-2. welcome animation support
-3. owl carousel
+1. Scroll To Top 
+2. Smooth Scroll spy
+3. Progress-bar
+4. owl carousel
+5. welcome animation support
 ======================================*/
 
     // 1. Scroll To Top 
 		$(window).on('scroll',function () {
-			if ($(this).scrollTop() > 300) {
+			if ($(this).scrollTop() > 600) {
 				$('.return-to-top').fadeIn();
 			} else {
 				$('.return-to-top').fadeOut();
@@ -30,82 +31,57 @@ $(document).ready(function(){
 			}, 1500);
 			return false;
 		});
-
-	// 2. welcome animation support
-
-        $(window).load(function(){
-        	$(".welcome-hero-txt h2,.welcome-hero-txt p").removeClass("animated fadeInUp").css({'opacity':'0'});
-            $(".welcome-hero-txt button").removeClass("animated fadeInDown").css({'opacity':'0'});
-        });
-
-        $(window).load(function(){
-        	$(".welcome-hero-txt h2,.welcome-hero-txt p").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".welcome-hero-txt button").addClass("animated fadeInDown").css({'opacity':'0'});
-        });
-
 	
-	// 3. owl carousel
-
-		// i.  new-cars-carousel
-		
-			$("#new-cars-carousel").owlCarousel({
-				items: 1,
-				autoplay:true,
-				loop: true,
-				dots:true,
-				mouseDrag:true,
-				nav:false,
-				smartSpeed:1000,
-				transitionStyle:"fade",
-				animateIn: 'fadeIn',
-				animateOut: 'fadeOutLeft'
-				// navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
-			});
-
-
-		// ii. .testimonial-carousel
 	
+	
+	// 2. Smooth Scroll spy
 		
-			var owl=$('.testimonial-carousel');
-			owl.owlCarousel({
-				items:3,
-				margin:0,
-				
-				loop:true,
-				autoplay:true,
-				smartSpeed:1000,
-				
-				//nav:false,
-				//navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-				
-				dots:false,
-				autoplayHoverPause:false,
-			
-				responsiveClass:true,
-					responsive:{
-						0:{
-							items:1
-						},
-						640:{
-							items:2
-						},
-						992:{
-							items:3
-						}
-					}
-				
-				
-			});
+		$('.header-area').sticky({
+           topSpacing:0
+        });
+		
+		//=============
 
-		// iii. .brand-item (carousel)
+		$('li.smooth-menu a').bind("click", function(event) {
+			event.preventDefault();
+			var anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $(anchor.attr('href')).offset().top - 0
+			}, 1200,'easeInOutExpo');
+		});
 		
-			$('.brand-item').owlCarousel({
-				items:6,
+		$('body').scrollspy({
+			target:'.navbar-collapse',
+			offset:0
+		});
+
+	// 3. Progress-bar
+	
+		var dataToggleTooTip = $('[data-toggle="tooltip"]');
+		var progressBar = $(".progress-bar");
+		if (progressBar.length) {
+			progressBar.appear(function () {
+				dataToggleTooTip.tooltip({
+					trigger: 'manual'
+				}).tooltip('show');
+				progressBar.each(function () {
+					var each_bar_width = $(this).attr('aria-valuenow');
+					$(this).width(each_bar_width + '%');
+				});
+			});
+		}
+	
+	// 4. owl carousel
+	
+		// i. client (carousel)
+		
+			$('#client').owlCarousel({
+				items:7,
 				loop:true,
 				smartSpeed: 1000,
 				autoplay:true,
 				dots:false,
-				autoplayHoverPause:false,
+				autoplayHoverPause:true,
 				responsive:{
 						0:{
 							items:2
@@ -114,10 +90,14 @@ $(document).ready(function(){
 							items:2
 						},
 						600:{
-							items:3
+							items:4
+
 						},
-						1000:{
-							items:6
+						1199:{
+							items:4
+						},
+						1200:{
+							items:7
 						}
 					}
 				});
@@ -130,4 +110,18 @@ $(document).ready(function(){
 					owl.trigger('stop.owl.autoplay')
 				})
 
-});
+
+    // 5. welcome animation support
+
+        $(window).load(function(){
+        	$(".header-text h2,.header-text p").removeClass("animated fadeInUp").css({'opacity':'0'});
+            $(".header-text a").removeClass("animated fadeInDown").css({'opacity':'0'});
+        });
+
+        $(window).load(function(){
+        	$(".header-text h2,.header-text p").addClass("animated fadeInUp").css({'opacity':'0'});
+            $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
+        });
+
+});	
+	
