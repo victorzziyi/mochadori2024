@@ -24,10 +24,12 @@ header {
     width: 100%;
     align-items: center;
 }
-header>p {
-    font-size: 1.5rem;
-    font-weight: 700;
+
+
+header>google-link {
+    text-decoration: none;
 }
+
 header>ul {
     display: flex;
 }
