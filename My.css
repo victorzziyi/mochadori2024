@@ -52,11 +52,14 @@ header>ul>li>a:hover {
     border-bottom: 5px solid
         gray;
 }
-@media screen and (max-width:500px){
+
+@media screen and (max-width:500px)
+{
     header {
         flex-direction: column;
     }
 }
+
 section {
     padding: 0 3rem;
     text-align: center;
@@ -95,19 +98,3 @@ footer>a {
     text-decoration: none;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
