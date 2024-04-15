@@ -30,14 +30,6 @@ header> .Home {
     padding-bottom: 5px;
     color: white;
 }
-header> .Home2 {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 800;
-    padding-bottom: 5px;
-    color: white;
-    margin-left: 20px 30px;
-}
 header>ul {
     display: flex;
 }
