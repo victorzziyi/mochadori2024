@@ -17,6 +17,8 @@ body {
     align-items: center;
     padding: 1.2rem
 }
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -53,12 +55,14 @@ header>ul>li>a:hover {
         gray;
 }
 
+
 @media screen and (max-width:500px)
 {
     header {
         flex-direction: column;
     }
 }
+
 
 section {
     padding: 0 3rem;
@@ -89,6 +93,8 @@ section>a {
     background-color: white;
     color: black;
 }
+
+
 footer {
     margin-bottom: 2rem;
     font-size: 1.1rem;
