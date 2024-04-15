@@ -1,4 +1,4 @@
-* {
+* {  
     padding: 0;
     margin: 0;
     /*border: 1px solid black*/
@@ -24,7 +24,6 @@ header {
     width: 100%;
     align-items: center;
 }
-
 header> .Home {
     
     text-decoration: none;
@@ -32,10 +31,7 @@ header> .Home {
     font-weight: 800;
     padding-bottom: 5px;
     color: white;
-    
-
 }
-
 header>ul {
     display: flex;
 }

@@ -8,25 +8,17 @@
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNE8WKD6Z5"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
+         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-SNE8WKD6Z5');
         
-
-         // 오른쪽 마우스 클릭 이벤트를 감지하는 함수
-        function disableRightClick(event) {
-             if (event.button == 2) {
-            // 오른쪽 마우스 클릭 이벤트를 방지
-            event.preventDefault();
-            return false;
-             }
+        // 마우스 우클릭 방지 
+        {
+        document.addEventListener('contextmenu', event => event.preventDefault());
         }
                       
-               
-        
         </script>
-
 
 </head>
 <body>
