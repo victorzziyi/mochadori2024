@@ -79,7 +79,17 @@ section>a {
 footer {
   margin-bottom: 2rem;
   font-size: 1.1rem;
+  color: gray;
 }
+footer>a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
 
 
 
