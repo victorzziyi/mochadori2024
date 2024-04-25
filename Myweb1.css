@@ -17,5 +17,16 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
+  align-items: center;
+  padding: 1.2rem 0;
 }
+header>p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+header>ul {
+  display: flex;
+}
+header>ul>li {
+  list-style-type: none;
+} 
