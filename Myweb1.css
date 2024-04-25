@@ -84,10 +84,12 @@ section>a {
 
 
 
+
+
 /* Myweb1.css */
 
 /* Learn more 링크에 대한 스타일 */
-a.learn-more {
+section>a.learn-more {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff; /* 배경색 */
@@ -98,18 +100,9 @@ a.learn-more {
 }
 
 /* Learn more 링크에 호버 효과 */
-a.learn-more:hover {
+section>a.learn-more:hover {
     background-color: #0056b3; /* 호버 시 배경색 변경 */
 }
-
-
-
-
-
-
-
-
-
 
 
 
