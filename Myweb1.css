@@ -48,7 +48,7 @@ header>ul>li:first-child>a {
 header>ul>li>a:hover {
   border-bottom: 5px solid gray;
 }
-@mediascreen and (max-width: 500px){
+@media screen and (max-width: 500px){
   header {
     flex-direction: column;
   }
