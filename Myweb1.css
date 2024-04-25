@@ -3,6 +3,10 @@
   margin: 0;
   /* border: 1px solid black; */
 }
+body {
+  background-color: #333;
+  color: white;
+}  
 .container {
   width: 700px;
   margin: 0 auto;
@@ -36,9 +40,10 @@ header>ul>li>a {
   font-size: 1.2rem;
   font-weight: 800;
   padding-bottom: 5px;
+  color: white;
 } 
 header>ul>li:first-child>a {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid white;
 }
 header>ul>li>a:hover {
   border-bottom: 5px solid gray;
@@ -68,6 +73,8 @@ section>a {
   padding: 1rem;
   border-radius: 10px;
   text-decoration: none;
+  background-color: white;
+  color: black;
 }
 footer {
   margin-bottom: 2rem;
