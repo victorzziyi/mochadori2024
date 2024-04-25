@@ -48,6 +48,18 @@ section>p:first-child {
   font-size: 2rem;
   font-weight: 900;
 }
+section>p:last-of-type {
+  font-size: 1.3rem;
+  font-weight: 500;
+} 
+section>a {
+  display: block;
+  border: 1px solid black;
+  width: 150px;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+}
 
 
 
