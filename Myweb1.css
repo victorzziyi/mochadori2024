@@ -29,4 +29,30 @@ header>ul {
 }
 header>ul>li {
   list-style-type: none;
+  margin-left: 1.5rem;
 } 
+header>ul>li>a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 5px;
+} 
+header>ul>li:first-child>a {
+  border-bottom: 5px solid black;
+}
+section {
+  padding: 0 3rem;
+  text-align: center;
+}
+section>p:first-child {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
+
