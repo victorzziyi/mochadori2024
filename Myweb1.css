@@ -40,6 +40,11 @@ header>ul>li>a {
 header>ul>li:first-child>a {
   border-bottom: 5px solid black;
 }
+header>ul>li>a:hover {
+  border-bottom: 5px solid gray;
+}
+
+
 section {
   padding: 0 3rem;
   text-align: center;
@@ -48,6 +53,7 @@ section>p:first-child {
   font-size: 2rem;
   font-weight: 900;
 }
+
 section>p:last-of-type {
   font-size: 1.3rem;
   font-weight: 500;
@@ -58,8 +64,16 @@ section>a {
   width: 150px;
   font-size: 1.3rem;
   font-weight: 600;
-
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
 }
+footer {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
 
 
 
