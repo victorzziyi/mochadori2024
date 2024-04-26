@@ -67,6 +67,32 @@ section>p:last-of-type {
 } 
 
 
+section>a {
+    background-color: #4CAF50; /* 기본 배경색 */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s; /* 트랜지션 효과 지속 시간 */
+}
+
+/* 버튼에 호버 효과 추가 */
+section>a:hover {
+    background-color: #45a049; /* 호버 시 배경색 변경 */
+}
+
+/* 버튼이 눌렸을 때 효과 추가 */
+section>a:active {
+    background-color: #3e8e41; /* 누를 때 배경색 변경 */
+}
+  
+
+
 
 section>a:hover {
     background-color: #45a049;  
