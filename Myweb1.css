@@ -100,9 +100,9 @@ section>a:hover {
     background-color: #45a049; /* 호버 시 배경색 변경 */
 }
 
-/* 버튼이 눌렸을 때 효과 추가 */
 section>a:active {
     background-color: #3e8e41; /* 누를 때 배경색 변경 */
+    box-shadow: 0 5px #666; /* 그림자 효과 추가 */
 }
 
 
