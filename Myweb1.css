@@ -2,17 +2,12 @@
   padding: 0;
   margin: 0;
 }
-
-
-
-
 body {
   background-color: #333D51;
   color: white;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
   font-style: normal;
- 
 }  
 .container {
   max-width: 700px;
@@ -49,16 +44,12 @@ header>ul>li>a {
   padding-bottom: 5px;
   color: white;
 } 
-/*header>ul>li:first-child>a {
-  border-bottom: 5px solid white;
-}*/
 header>ul>li>a:hover {
   border-bottom: 5px solid gray;
 }
 @media screen and (max-width: 500px){
-  header {
+header {
     flex-direction: column;
-  }
 }
 section {
   padding: 0 3rem;
@@ -105,10 +96,10 @@ section>a {
     border-radius: 20px;   
 }*/
 
-/* 버튼에 호버 효과 추가 */
+/*
 section>a:hover {
-    background-color: #45a049; /* 호버 시 배경색 변경 */
-}
+    background-color: #45a049; /* 호버 시 배경색 변경 
+}*/
 
 section>a:active {
     background-color: #F3E2A9; /* 누를 때 배경색 변경 */
