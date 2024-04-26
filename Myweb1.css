@@ -90,8 +90,8 @@ section>a {
 
 
 
-section>a {
-    background-color: white; /* 기본 배경색 */
+/*section>a {
+    background-color: white;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -101,10 +101,9 @@ section>a {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-    transition-duration: 0.4s; /* 트랜지션 효과 지속 시간 */
-    border-radius: 20px;
-    
-}
+    transition-duration: 0.4s;
+    border-radius: 20px;   
+}*/
 
 /* 버튼에 호버 효과 추가 */
 section>a:hover {
@@ -112,7 +111,7 @@ section>a:hover {
 }
 
 section>a:active {
-    background-color: #3e8e41; /* 누를 때 배경색 변경 */
+    background-color: #F3E2A9; /* 누를 때 배경색 변경 */
     box-shadow: 0 5px #666; /* 그림자 효과 추가 */
 }
 
