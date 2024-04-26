@@ -66,7 +66,7 @@ section>p:last-of-type {
 } 
 section>a {
   display: block;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 150px;
   font-size: 1.3rem;
   font-weight: 600;
