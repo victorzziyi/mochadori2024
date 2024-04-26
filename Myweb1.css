@@ -97,14 +97,12 @@ section>a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     transition-duration: 0.4s; /* 트랜지션 효과 지속 시간 */
     border-radius: 20px;
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 400;
-    font-style: normal;
+    
 }
 
 /* 버튼에 호버 효과 추가 */
