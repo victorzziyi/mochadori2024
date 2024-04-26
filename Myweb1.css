@@ -64,7 +64,7 @@ section>p:last-of-type {
   font-weight: 500;
 } 
 
-section>a {
+/*section>a {
   display: block;
   border: 1px solid black;
   width: 150px;
@@ -76,12 +76,12 @@ section>a {
   text-decoration: none;
   background-color: white;
   color: black;
-}
+}*/
 
 
 
 
-/*section>a {
+section>a {
     background-color: white;
     border: none;
     color: black;
@@ -94,7 +94,7 @@ section>a {
     cursor: pointer;
     transition-duration: 0.4s;
     border-radius: 20px;   
-}*/
+}
 
 section>a:hover {
     background-color: #45a049;  
