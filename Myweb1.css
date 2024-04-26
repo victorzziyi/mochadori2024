@@ -93,6 +93,7 @@ section>a {
     margin: 4px 2px;
     cursor: pointer;
     transition-duration: 0.4s; /* 트랜지션 효과 지속 시간 */
+    border-radius: 20px;
 }
 
 /* 버튼에 호버 효과 추가 */
