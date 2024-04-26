@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
 }
-@import url('https://cdn.jsdelivr.net/npm/fontsource-nanum-myeongjo');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 body {
   background-color: #333D51;
   color: white;
-  font-family: 'Nanum Myeongjo', serif; /* 네이버 명조 폰트를 사용합니다. */
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
 }  
 .container {
   max-width: 700px;
