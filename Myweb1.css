@@ -96,19 +96,14 @@ section>a {
     border-radius: 20px;   
 }*/
 
-/*
 section>a:hover {
-    background-color: #45a049; /* 호버 시 배경색 변경 
-}*/
+    background-color: #45a049;  
+}
 
 section>a:active {
     background-color: #F3E2A9; /* 누를 때 배경색 변경 */
     box-shadow: 0 5px #666; /* 그림자 효과 추가 */
 }
-
-
-
-
 
 footer {
   margin-bottom: 2rem;
