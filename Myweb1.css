@@ -64,7 +64,7 @@ section>p:last-of-type {
   font-size: 1.3rem;
   font-weight: 500;
 } 
-section>a {
+/*section>a {
   display: block;
   border: 1px solid black;
   width: 150px;
@@ -76,15 +76,15 @@ section>a {
   text-decoration: none;
   background-color: white;
   color: black;
-}
+}*/
 
 
 
 
 section>a {
-    background-color: #4CAF50; /* 기본 배경색 */
+    background-color: white; /* 기본 배경색 */
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
