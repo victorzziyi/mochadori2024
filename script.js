@@ -11,6 +11,7 @@ function displayCurrentDateTime() {
     document.getElementById('current-date-time').textContent = `${formattedDateTime}`;
 }
 
+
 // 페이지 로드 시 현재 날짜와 시간 표시
 displayCurrentDateTime();
 
