@@ -69,6 +69,7 @@ header>ul>li>a:hover{
 section {
   padding: 0 3rem;
   text-align: center;
+  
 }
 section>p {
   margin-bottom: 2rem;
@@ -83,12 +84,12 @@ section>p:last-of-type {
 }
 section>a {
   color: white;
-  display: block;
+  display: inline-block;
   border: 1px solid black;
   width: 150px;
   font-size: 1.3rem;
   font-weight: 600;
-  margin: auto;
+  margin: 0.4rem;
   padding: 1rem;
   border-radius: 10px;
   text-decoration: none;
