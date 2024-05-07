@@ -5,6 +5,13 @@
     /*border: 1px solid black;*/
 }
 
+body {
+    background-color: #788d56;
+    color: black;
+    
+    
+  }
+
 .container {
     max-width: 700px;
     margin: 0 auto;
