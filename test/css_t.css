@@ -1,0 +1,27 @@
+.button-container1,
+.button-container2 {
+    display: flex;
+    align-items: center;
+}
+
+.button-container1 button,
+.button-container2 button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #333;
+    color: #161616; /* 흰색 글자색 */
+    cursor: pointer; /* 커서 스타일 변경 */
+}
+
+.button-container1 .top-button {
+    margin-right: 10px;
+}
+
+.button-container1 .bottom-button {
+    margin-left: 10px;
+}
+
+.button-container2 .bottom-button {
+    margin-left: 10px;
+}

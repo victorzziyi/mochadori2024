@@ -3,13 +3,9 @@
   margin: 0;
   /*border: 1px solid black;*/
 }
-
-
-
 body {
   background-color: #333;
   color: white;
-
   font-family: "Tilt Neon", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -17,7 +13,6 @@ body {
   font-variation-settings:
     "XROT" 0,
     "YROT" 0;
-  
 }
 .container {
   max-width: 700px;
@@ -63,13 +58,11 @@ header>ul>li>a:hover{
 @media screen and (max-width:600px) {
   header {
     flex-direction: column;
-  }
-  
+  } 
 }
 section {
   padding: 0 3rem;
   text-align: center;
-  
 }
 section>p {
   margin-bottom: 2rem;
@@ -97,10 +90,8 @@ section>a {
 footer {
   margin-bottom: 2rem;
   font-size: 1.1rem;
-
 }
 footer>a {
   text-decoration: none;
   color: gray;
 }
-
