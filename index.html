@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Frame Page</title>
     <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 링크 -->
+    <script src="script.js" defer></script> <!-- 자바스크립트 파일 링크 -->
 </head>
 <body>
     <header>
@@ -17,6 +18,7 @@
                 <li><a href="menu2.html" target="main-frame">정리</a></li>
             </ul>
         </nav>
+        <div id="current-time" style="color: white; font-size: 24px;"></div>
         <!-- 내부 프레임 -->
         <iframe name="main-frame" src="page1.html"></iframe>
     </main>
