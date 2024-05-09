@@ -1,12 +1,72 @@
-.menu {
-    display: flex; /* 가로로 배치합니다. */
-    list-style: none; /* 리스트의 기본 마커를 제거합니다. */
+* {
+    background-color: antiquewhite;
+    border: 1px solid black;
 }
 
-.menu li {
-    margin-right: 20px; /* 각 메뉴 아이템 사이의 간격을 설정합니다. */
+.container {
+    width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.menu li a {
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem 0;
+
+    
+}
+header>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+header>ul {
+    display: flex;
+
+}
+header>ul>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+header>ul>li>a {
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+
 }
+header>ul>li:first-child>a {
+    border-bottom: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
