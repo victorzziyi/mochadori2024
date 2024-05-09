@@ -1,8 +1,7 @@
 /* 전체 요소에 대한 기본 스타일 */
 * {
     background-color: antiquewhite; /* 배경색 설정 */
-    margin: 0;
-    /*border: 1px solid black; /* 테두리 설정 */
+    border: 1px solid black; /* 테두리 설정 */
     padding: 10px; /* 안쪽 여백 설정 */
 }
 /* 페이지 컨테이너 */
@@ -23,11 +22,6 @@ header {
     width: 100%; /* 전체 너비 */
     align-items: center; /* 가로 중앙 정렬 */
     padding: 1.2rem 0; /* 상하 padding 설정 */
-}
-header>a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
 }
 /* 헤더 내의 문단 요소 */
 header>p {
@@ -52,15 +46,5 @@ header>ul>li>a {
 }
 /* 헤더 내의 첫 번째 링크에 대한 하단 테두리 */
 header>ul>li:first-child>a {
-    /*border-bottom: 5px solid black; /* 하단 테두리 설정 */
+    border-bottom: 5px solid black; /* 하단 테두리 설정 */
 }
-
-section>p {
-    font-size: 20px;
-}
-
-footer>a {
-    font-size: 20px;
-    text-decoration: none;
-}
-
