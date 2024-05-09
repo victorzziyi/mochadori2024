@@ -7,7 +7,7 @@
 }
 /* 페이지 컨테이너 */
 .container {
-    max-width: 700px; /* 최대 너비 설정 */
+    max-width: 500px; /* 최대 너비 설정 */
     margin: 0 auto; /* 가운데 정렬 */
     box-sizing: border-box; /* 너비와 높이에 padding과 border를 포함시킴 */
     height: 600px; /* 스크롤이 생기지 않도록 고정된 값으로 변경 */
