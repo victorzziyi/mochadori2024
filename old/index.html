@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내부 페이지 테스트</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 링크 -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="menu1.html" target="main-frame">HOME</a></li>
+                <li><a href="menu2.html" target="main-frame">정리</a></li>
+		<li><a href="menu3.html" target="main-frame">메뉴</a></li>
+            </ul>
+        </nav>
+       
+        <!-- 내부 프레임 -->
+        <iframe name="main-frame" src="menu1.html"></iframe>
+    </main>
+</body>
+</html>
