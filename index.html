@@ -2,6 +2,13 @@
 <html lang="en"> <!-- 언어 속성 설정 -->
 
 <head>
+    <script>
+        // 우클릭 이벤트를 감지하여 기본 동작을 막는 함수
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault(); // 기본 동작 막기
+        });
+    </script>
+    
     <meta charset="UTF-8"> <!-- 문자 인코딩 설정 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 반응형 뷰포트 설정 -->
     <title>빅터찌이</title> <!-- 문서 제목 -->

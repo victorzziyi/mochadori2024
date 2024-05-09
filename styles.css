@@ -16,9 +16,15 @@
     justify-content: space-between; /* 위아래 여백 균등 분배 */
     align-items: center; /* 가로 중앙 정렬 */
 }
+
+/* 작은 화면에 대한 스타일 지정 */
 @media only screen and (max-width: 600px) {
-    /* 작은 화면에 대한 스타일 지정 */
+    header {
+        flex-direction: column;
+    }
+    
 }
+
 /* 헤더 */
 header {
     display: flex; /* Flexbox 사용 */
@@ -66,6 +72,7 @@ section>a {
 
 section>p {
     font-size: 20px;
+    text-align: center; /* 가로 중앙 정렬 */
 }
 
 footer>a {
