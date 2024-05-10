@@ -65,13 +65,13 @@ header>ul>li:first-child>a {
     /*border-bottom: 5px solid black; /* 하단 테두리 설정 */
 }
 section>a {
-    font-size: 20px;
+    font-size: 10px;
     text-decoration: none;
     color: black;
 }
 
 section>p {
-    font-size: 20px;
+    font-size: 10px;
     text-align: center; /* 가로 중앙 정렬 */
 }
 
