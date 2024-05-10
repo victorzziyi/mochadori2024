@@ -7,10 +7,10 @@
 }
 /* 페이지 컨테이너 */
 .container {
-    max-width: 500px; /* 최대 너비 설정 */
+    max-width: 800px; /* 최대 너비 설정 */
     margin: 0 auto; /* 가운데 정렬 */
     box-sizing: border-box; /* 너비와 높이에 padding과 border를 포함시킴 */
-    height: 600px; /* 스크롤이 생기지 않도록 고정된 값으로 변경 */
+    height: 500px; /* 스크롤이 생기지 않도록 고정된 값으로 변경 */
     display: flex; /* Flexbox 사용 */
     flex-direction: column; /* 세로 방향으로 정렬 */
     justify-content: space-between; /* 위아래 여백 균등 분배 */
@@ -56,7 +56,7 @@ header>ul>li {
 header>ul>li>a {
     color: black;
     text-decoration: none; /* 링크에 밑줄 제거 */
-    font-size: 5px; /* 글꼴 크기 설정 */
+    font-size: 15px; /* 글꼴 크기 설정 */
     font-weight: 550; /* 글꼴 굵기 설정 */
     padding-bottom: 5px; /* 하단 padding 설정 */
 }
@@ -65,13 +65,13 @@ header>ul>li:first-child>a {
     /*border-bottom: 5px solid black; /* 하단 테두리 설정 */
 }
 section>a {
-    font-size: 10px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
 }
 
 section>p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center; /* 가로 중앙 정렬 */
 }
 
