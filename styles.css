@@ -1,83 +1,78 @@
-/* 전체 요소에 대한 기본 스타일 */
+
 * {
-    background-color: #ccbb9a; /* 배경색 설정 */
     margin: 0;
-    /*border: 1px solid black; /* 테두리 설정 */
-    padding: 10px; /* 안쪽 여백 설정 */
+    padding: 0;
+    box-sizing: 
 }
-/* 페이지 컨테이너 */
+
 .container {
-    max-width: 800px; /* 최대 너비 설정 */
-    margin: 0 auto; /* 가운데 정렬 */
-    box-sizing: border-box; /* 너비와 높이에 padding과 border를 포함시킴 */
-    height: 500px; /* 스크롤이 생기지 않도록 고정된 값으로 변경 */
-    display: flex; /* Flexbox 사용 */
-    flex-direction: column; /* 세로 방향으로 정렬 */
-    justify-content: space-between; /* 위아래 여백 균등 분배 */
-    align-items: center; /* 가로 중앙 정렬 */
+    width: 100%;
+    height: 100vh;
+
+}
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* 작은 화면에 대한 스타일 지정 */
-@media only screen and (max-width: 600px) {
-    header {
-        flex-direction: column;
-    }
-    
-}
-
-/* 헤더 */
-header {
-    display: flex; /* Flexbox 사용 */
-    justify-content: space-between; /* 좌우 여백 균등 분배 */
-    width: 100%; /* 전체 너비 */
-    align-items: center; /* 가로 중앙 정렬 */
-    padding: 1.2rem 0; /* 상하 padding 설정 */
-}
-header>a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-}
-/* 헤더 내의 문단 요소 */
-header>p {
-    font-size: 1.5rem; /* 글꼴 크기 설정 */
-    font-weight: 700; /* 글꼴 굵기 설정 */
-}
-/* 헤더 내의 목록 요소 */
-header>ul {
-    display: flex; /* Flexbox 사용 */
-}
-/* 헤더 내의 각 목록 항목 */
-header>ul>li {
-    list-style-type: none; /* 리스트 스타일 제거 */
-    margin-left: 1px; /* 좌측 여백 설정 */
-}
-/* 헤더 내의 각 링크 */
-header>ul>li>a {
-    color: black;
-    text-decoration: none; /* 링크에 밑줄 제거 */
-    font-size: 15px; /* 글꼴 크기 설정 */
-    font-weight: 600; /* 글꼴 굵기 설정 */
-    padding-bottom: 5px; /* 하단 padding 설정 */ 
-}
-
-/* 헤더 내의 첫 번째 링크에 대한 하단 테두리 */
-section>a {
-    font-size: 15px;
-    text-decoration: none;
+.container .header h1 a{
+    text-decoration:  none;
     color: black;
     
 }
 
-section>p {
-    margin-top: 15px;
-    font-size: 15px;
-    text-align: center; /* 가로 중앙 정렬 */
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.container .nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 
-footer>a {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
+.container .nav ul li a:hover{
+    color: #1fdfdf;
 }
+.container .hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.container .hero p{
+    font-size: 22px;
+}
+.container .hero button{
+    background-color: none;
+    border: 2px solid darkblue;
+    color: black;
+    pad: 15px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+
+}
+.container .hero button:hover{
+    background-color: darkkhaki;
+}
+
+
+
+
+
+
+
 

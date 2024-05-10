@@ -1,44 +1,30 @@
-<!DOCTYPE html> <!-- HTML5 선언 -->
-<html lang="en"> <!-- 언어 속성 설정 -->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script>
-        // 우클릭 이벤트를 감지하여 기본 동작을 막는 함수
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault(); // 기본 동작 막기
-        });
-    </script>
-    
-    <meta charset="UTF-8"> <!-- 문자 인코딩 설정 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 반응형 뷰포트 설정 -->
-    <title>빅터찌이</title> <!-- 문서 제목 -->
-    <link rel="stylesheet" href="styles.css"> <!-- 외부 CSS 파일 연결 -->
-    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design House</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <div class="container">
-        <header>
-            <a href="http://han.gl/4UFXQ" target="_blank">HOME</a> <!-- 헤더의 제목 -->
-            
-            <ul>
-                <li><a href="https://onedrive.live.com" target="_blank">Onedrive</a></li> <!-- 첫 번째 링크 -->
-                <li><a href="https://drive.google.com" target="_blank">Gdrive</a></li> <!-- 두 번째 링크 -->
-                <li><a href="https://map.kakao.com" target="_blank">K Map</a></li> <!-- 두 번째 링크 -->           
-            </ul>
-            
-
-        </header>
-
-        <section>
-            <a href="https://kinolights.com" target="_blank">The most personal is the most creative </a>
-            <p>https://han.gl/4UFXQ</p>
-        
-        </section>
-        <footer>
-            <a href="https://google.com" target="_blank">GOOGLE</a> <!-- 푸터 내용 -->
-        </footer>
-    </div>
+        <div class="header">
+            <h1><a href="#">DESIGN</a></h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BEDROOM</a></li>
+                    <li><a href="#">DINING</a></li>
+                    <li><a href="#">KITCHEN</a></li>
+                    <li><a href="#">BACKYARD</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero">
+            <h2>DESIGN YOUR HOUSE</h2>
+            <p>Subscribe Easy Youtube Channel to watch more videos,<br>press the bell icon to get latest updates.</p>
+            <button>WATCH VIDEOS</button>
+        </div>
+    </div>  
 </body>
-
 </html>
