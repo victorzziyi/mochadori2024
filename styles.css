@@ -61,9 +61,8 @@ header>ul>li>a {
     padding-bottom: 5px; /* 하단 padding 설정 */
 }
 /* 헤더 내의 첫 번째 링크에 대한 하단 테두리 */
-header>ul>li:first-child>a {
-    /*border-bottom: 5px solid black; /* 하단 테두리 설정 */
-}
+
+
 section>a {
     font-size: 15px;
     text-decoration: none;
